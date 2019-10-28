@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80749B3235722440087E105 /* GradualLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E80749B2235722440087E105 /* GradualLabel.m */; };
 		E8E6363322EEBF5B00D01C33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E6363222EEBF5B00D01C33 /* AppDelegate.m */; };
 		E8E6363622EEBF5B00D01C33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E6363522EEBF5B00D01C33 /* ViewController.m */; };
 		E8E6363922EEBF5B00D01C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E6363722EEBF5B00D01C33 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E80749B1235722440087E105 /* GradualLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradualLabel.h; sourceTree = "<group>"; };
+		E80749B2235722440087E105 /* GradualLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradualLabel.m; sourceTree = "<group>"; };
 		E8E6362E22EEBF5B00D01C33 /* PointArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E6363122EEBF5B00D01C33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8E6363222EEBF5B00D01C33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 			children = (
 				E8E6364822EEC1A800D01C33 /* UIWindow+PointArea.h */,
 				E8E6364922EEC1A800D01C33 /* UIWindow+PointArea.m */,
+				E80749B1235722440087E105 /* GradualLabel.h */,
+				E80749B2235722440087E105 /* GradualLabel.m */,
 			);
 			path = CJViewModel;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E6363622EEBF5B00D01C33 /* ViewController.m in Sources */,
+				E80749B3235722440087E105 /* GradualLabel.m in Sources */,
 				E8E6364122EEBF5C00D01C33 /* main.m in Sources */,
 				E8E6363322EEBF5B00D01C33 /* AppDelegate.m in Sources */,
 				E8E6364A22EEC1A800D01C33 /* UIWindow+PointArea.m in Sources */,
